@@ -1,0 +1,128 @@
+.sidebar {
+    flex-grow: 2;
+    height: 25vh; 
+    min-height: 200px;
+    overflow: auto;
+    position: -webkit-sticky;
+    position: fixed;
+    top:60px;
+    padding:20px;
+  }
+  
+  .main {
+    flex-grow: 3;
+    height:85vh;
+    background-color: var(--green);
+    display: flex;
+    flex-direction: column;
+    width:75vw;
+    margin-left:275px;
+    margin-top:60px;
+    align-items: center;
+    justify-content: flex-start;
+    padding:15px;
+  }
+  
+  .sidebar {
+    background-color: var(--black);
+    color: var(--black1);
+
+    height:100vh
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+
+  
+  .bottom {
+    justify-self: bottom;
+  }
+  .sidebar-top{
+      display: flex;
+      flex-direction:row;
+      align-items: center;
+  }
+.profile-name{
+    margin:20px;
+    font-size: 20px;
+}
+.list-it{
+  margin-top:100px
+}
+.list-it>ul{
+    list-style-type: none;
+}
+.list-it>ul>li{
+    color:white;
+    font-size:18px;
+    cursor: pointer;
+    padding:10px;
+    margin:10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+}
+.list-it>ul>li:hover{
+  color:white;
+  background-color:var(--green);
+  cursor: pointer;
+  padding:10px;
+  margin:10px;
+  border-radius: 5px;
+ 
+}
+.list-it>ul>li:focus{
+  background-color:var(--green)
+}
+.arrow{
+  width:25px;
+  height:20px;
+  padding:5px
+}
+.save-button{
+  float: right;
+  align-items:flex-end
+}
+.edit-button{
+  background-color:black;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.edit-button>span{
+  color:white;
+  margin-left: 8px;
+}
+@media only screen and (max-width: 800px) {
+  .sidebar {
+    top:50px;
+    display:none
+  }
+  .wrapper{
+    display: block;
+  }
+  .main {
+      height:auto;
+    background-color: var(--green);
+    display: flex;
+    flex-direction: column;
+    width:auto;
+    margin-left:0px;
+    margin-top:40px;
+    align-items: center;
+    justify-content: flex-start;
+    padding:0px;
+    margin-right: 0px;
+  }
+
+
+}

@@ -1,0 +1,17 @@
+:root{
+  --green:#24B47E;
+  --black:#181818;
+  --white:#A1A1AA;
+  --gray:#2a2a2a;
+  --black1:#1F1F1F;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rosario:wght@344&display=swap');
+body{
+  padding:0;
+  margin: 0;
+  font-family:  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

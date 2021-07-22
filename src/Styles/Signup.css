@@ -1,0 +1,150 @@
+
+.signup-bg{
+    background:linear-gradient(to left   , var(--black)0%, var(--black)50%, var(--green)50%, var(--green) 100%);
+    height:vh;
+    position:relative;
+    padding:60px
+}
+.signup-container{
+    background-color: white;
+    max-width:800px;
+    height:auto;
+    margin:10px auto;
+    padding:40px;
+    border-radius: 40px;
+    margin-top: px;
+    min-height: 500px;
+}
+.text-large{
+    font-family:'Rosario', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+}
+.text-small{
+    color:rgb(112, 112, 112);
+    font-size:13px;
+    padding-left: 5px;
+}
+.text-medium{
+    padding:10px;
+
+
+}
+.signup-flex{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.svg{
+    width:300px;
+    height:300px;
+    cursor:pointer;
+}
+.flex-2{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    height:450px
+}
+.flex-3{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+.flex-4{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+}
+.label{
+    font-weight: 400;
+    font-size:14px;
+    color:rgb(145, 145, 145);
+    
+}
+.input{
+    border-radius: 5px;
+    width: 150px;
+    height:40px;
+    border: 2px solid rgb(148, 148, 148);
+    font-weight: 540;
+    padding: 5px;
+    font-size: 16px;
+}
+.input1{
+    border-radius: 5px;
+    font-size: 16px;
+    width: 150px;
+    height:55px;
+    border: 2px solid rgb(148, 148, 148);
+    font-weight: 540;
+    padding: 5px;
+}
+form{
+    margin-top: 40px;
+}
+.form-item{
+    margin:  10px 10px;
+}
+.input:focus{
+    border:2px solid var(--green);
+    outline:none;
+}
+.input1:focus{
+    border:2px solid var(--green);
+    outline:none;
+}
+.pass{
+    width:350px;
+}
+.already{
+    display: none;
+}
+@media only screen and (max-width: 720px) {
+    .signup-bg{
+        padding: 0px;
+        background: var(--black);
+    }
+
+    .svg-content{
+        display: none
+    }
+    .input{
+        width:240px;
+        font-size:18px;
+    }
+    .input1{
+        width: 250px;
+        font-size: 18px;
+    }
+    .pass{
+        width:240px;
+    }
+
+    .signup-container{
+        background-color: white;
+        max-width:300px;
+        height:auto;
+        padding:20px;
+        margin-top:100px;
+        border-radius: 5px;
+        margin-bottom:100px;
+    }   
+    .flex-4{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:flex-start
+    }
+    .form-item{
+        margin:  10px 10px;
+    }
+    .signup-button{
+        margin:10px auto;
+    }
+    .already{
+        display: block
+    }
+  }

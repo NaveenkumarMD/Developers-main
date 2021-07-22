@@ -1,0 +1,79 @@
+.main-container-view-profile{
+    max-width: 800px;
+    margin:10px auto;
+    color: #fff;
+    margin-top:90px
+}
+.view-profile-profile{
+    width:150px;
+    height:150px
+}
+.view-profile-top{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-bottom:20px;
+    border-bottom: 2px solid var(--gray);
+}
+.view-profile-img-container{
+    margin:0px 0px;
+    flex-basis: 200px;
+}
+.view-profile-name{
+    font-size: 28px;
+    line-height:32px;
+    margin:10px 0px
+}
+.view-profile-container1{
+    flex-basis: 500px;
+}
+.whatsapp-button{
+    background-color: green;
+    color: white;
+    width:130px;
+    height:40px;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    border-radius: 20px;
+    padding:0px 10px
+}
+.whatsapp-button>a{
+    color:white
+}
+.call-button{
+ background-color: rgb(55, 57, 184);
+ color: white;
+ width:80px;
+ height:40px;
+ display:flex;
+ flex-direction: row;
+ align-items:center;
+ border-radius: 20px;
+ padding:0px 10px;
+ margin-left:20px
+}
+.call-button>a{
+    color:white
+}
+.contact-icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+
+}
+.profile-info-head{
+    color: var(--green);
+    font-size: 28px;
+    line-height:90px
+}
+.profile-info-x{
+    background-color:var(--green);
+    padding:0px;
+    border-radius: 3px;
+    padding:10px;
+    text-align:center;
+    font-size: 18px;
+    max-width: 130px;
+    cursor: pointer;
+}

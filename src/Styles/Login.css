@@ -1,0 +1,139 @@
+
+.Login-container{
+    display:flex;
+    flex-direction:row;
+}
+.container1{
+    background-color: var(--black1);
+    height:auto;
+    flex-grow: 9;
+    min-width:auto;
+}
+.empty-space{
+    background-color:var(--green);
+    height:auto;
+    flex-grow: 0;
+    max-width: auto;
+    
+}
+.form-container{
+    max-width: 400px;
+    margin:10px auto;
+    background-color:var(--black1);
+    height:400px;
+    margin-top:120px;    
+    padding:20px
+}
+.login-input{
+    width:270px;
+    height:30px;
+    border-radius: 10px;
+    outline:none;
+    border:none;
+    margin:10px 0px;
+    font-size:16px;
+    font-weight: 530;
+    padding:5px;
+    border:2.3px solid var(--green);
+    background-color: var(--gray);
+    color:white;
+}
+.login-input:focus{
+    border:3px solid var(--green) !important;
+
+}
+.login-label{
+    color:var(--white);    
+}
+.login-input-container{
+    margin:40px
+}
+.login-form{
+    margin-top: 90px;
+}
+.password-show-icon{
+    width:20px;
+    height:20px;
+    color:white;
+
+}
+.password-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width:270px;
+    align-items:center;
+    border:2.3px solid var(--green);
+    border-radius: 10px;
+    height:30px;
+    padding:5px;
+    background-color:var(--gray);
+    margin: 10px 0px;
+    
+}
+.password-container:focus{
+    border:3px solid var(--green) !important;
+}
+.password-input{
+    background-color:var(--gray);
+    font-size:16px;
+    outline:none;
+    border:none;
+    height:30px;
+    width:250px;
+    padding:5px;
+    border-radius: 10px;
+    color:white;
+    font-weight: 530;
+}
+.info-text{
+    padding:120px 0px 0px 70px;
+}
+.info-text1{
+    padding:5px 70px;
+    color:white;
+}
+.login-svg{
+    width:500px;
+    height:500px;
+    padding:10px 270px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .login-input-container{
+        margin:40px 30px;
+    }
+    .empty-space{
+        display:none;
+    }
+    .container1{
+        width:100%;
+        height:auto
+        
+    }
+    .Login-container{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center
+    }
+    .form-container{
+        background-color:var(--black1);
+        height:95vh;
+        margin:10px auto;
+        margin-top:40px;
+        padding:10px
+        
+    }
+    .login-input{
+        width:230px;
+    }
+    .password-container{
+        width:230px
+    }
+
+
+}
+
+

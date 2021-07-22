@@ -1,0 +1,47 @@
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.green-solid-button{
+    outline:none;
+    border:none;
+    padding:10px 25px;
+    border-radius:5px;
+    background-color:var(--green);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.green-solid-button:hover{
+    box-shadow: 0 0 10px 2px var(--green);
+
+}
+.button-green-outline{
+    outline:none;
+    border:1px solid var(--green);
+    padding:10px 25px;
+    border-radius:5px;
+    color: var(--green);
+    background-color:white;
+    font-size: 15px;
+    cursor:pointer
+}
+.button-green-outline:hover{
+    background-color:var(--green);
+    color:white
+}
+.green-text{
+    color:var(--green);
+}
+.large-text{
+    font-size:36px;
+    font-family:'Rosario', sans-serif;
+}
+.white-text{
+    color:white;
+}
+.link{
+    text-decoration: none;
+    color:var(--green);
+}
